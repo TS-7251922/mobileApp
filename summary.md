@@ -1,6 +1,6 @@
 # モバイルアプリ開発　まとめ  
 末尾に半角スペースで改行  
-## 一章 〜widget〜
+## widgetについて
 ▶︎StatelessWidget(ステイトレス)について  
  　一度構築すると変化しない。  
  　外から渡されたデータだけで表示される。  
@@ -25,6 +25,11 @@
  　アセットの配置場所やネットワーク画像の読み込み  
 
 ・ボタンと処理  
-▶︎
+▶︎ElevatedButton, TextButton, IconButton   
+　onPressed や onTap でユーザーの操作を受け取り、画面制御や状態更新を行う  
+
+・State（状態管理）  
+▶︎setState  
+　状態を変更した後に setState() を呼ぶことで build() が再実行され、UIに反映される
 
  
