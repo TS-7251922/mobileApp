@@ -60,7 +60,17 @@
 　　‑ GETリクエストでWebサイトからデータ取得、POSTリクエストでデータ送信  
 　　‑ 通信結果を受け取ってUIに反映する流れと基本コードを掲載  
 　　‑ 応答の処理・エラーハンドリング・ステータスチェックのポイントも説明  
-・
+## Firebaseについて  
+・準備とFirestoreの利用  
+　▶︎プロジェクトの作成と保存と取得  
+　　- Flutter アプリと連携（firebase_core, cloud_firestore パッケージを使用）  
+　　- main.dart で Firebase.initializeApp() を実行し、Firestore へのアクセスを初期化  
+　　- データは「コレクション → ドキュメント → フィールド」で構成される  
+・検索とソート  
+　▶︎データを条件付きで取得したり、ソートを適用
+　　- where を用いた絞り込み  
+　　- orderBy, startAt, endAt を用いた並び替え・範囲指定  
+　　- 
 
 
  
