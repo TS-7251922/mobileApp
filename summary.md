@@ -67,10 +67,17 @@
 　　- main.dart で Firebase.initializeApp() を実行し、Firestore へのアクセスを初期化  
 　　- データは「コレクション → ドキュメント → フィールド」で構成される  
 ・検索とソート  
-　▶︎データを条件付きで取得したり、ソートを適用
+　▶︎データを条件付きで取得したり、ソートを適用  
 　　- where を用いた絞り込み  
 　　- orderBy, startAt, endAt を用いた並び替え・範囲指定  
-　　- 
+　　- addメソッド新しいドキュメントをコレクションに追加  
+・ユーザー認証  
+　▶Firebase Authenticationを使い、ユーザー認証を行う  
+　　- 「firebase_auth」パッケージと、Google認証には「google_sign_in」を使う  
+　　- 認証されたユーザーのみアクセス可能  
+　　- Googleアカウントやメール、パスワードでログイン  
+　　- 状態管理やセッション管理  
+　　
 
 
  
